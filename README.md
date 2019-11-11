@@ -1,7 +1,2 @@
-# Locally in your project. 
-npm install -D ts-node
-npm install -D typescript
- 
-# Or globally with TypeScript. 
-npm install -g ts-node
-npm install -g typescript
+# ns8
+NS8 Assessment project
