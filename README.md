@@ -3,18 +3,18 @@ NS8 Assessment project
 
 The database is in-memory only
 
-#How to run this project
+# How to run this project
    npm install
    
    npm start
 
-#How to run unit tests
+# How to run unit tests
    
    You can also look in the controller.specs.ts to identify routes.
    
    npm run test
    
-#Routes
+# Routes
     
      /users (post) -- adds a user to the database
      {
