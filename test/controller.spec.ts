@@ -13,6 +13,13 @@ describe('controller function', () => {
         });
         expect(res.status).to.equal(200);
     });
+    it('should POST a new user', async function () {
+        const res = await request(app).post('/users').send({
+            "email": "test@ns8.com",
+            "password": "HotDogs"
+        });
+        expect(res.status).to.equal(200);
+    });
     it('should GET /users', async function () {
         const res = await request(app).get('/');
         expect(res.status).to.equal(200);

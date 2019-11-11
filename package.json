@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --w",
     "start": "tsc && ts-node ./dist/index.js",
-    "test-dev": "nodemon --watch . --ext ts --exec \"mocha -r ts-node/register test/*.spec.ts\""
+    "test": "nodemon --watch . --ext ts --exec \"mocha -r ts-node/register test/*.spec.ts\""
   },
   "author": "Timothy Jeffcoat",
   "license": "MIT",

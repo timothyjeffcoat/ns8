@@ -3,7 +3,7 @@ import * as moment from 'moment'
 export interface User {
     email: string
     password: string
-    phone: string
+    phone?: string
 }
 
 export interface Event {
